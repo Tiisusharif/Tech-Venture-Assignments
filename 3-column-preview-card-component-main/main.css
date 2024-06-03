@@ -6,7 +6,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-content: center;
-    align-items: center;
+    align-items: strech;
     margin: 20%;
 }
 
@@ -48,7 +48,8 @@ button {
 }
 
 .card3 {
-    display: inline;
+    display: flex;
+    flex
     background-color: hsl(179, 100%, 13%);
     justify-items: center;
     align-items: flex-start;
@@ -83,9 +84,11 @@ P {
 .card1,
 .card2,
 .card3 {
+    display: flex;
+    flex-direction: column;
     padding: 20px;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
 }
   
 h1 {
