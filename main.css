@@ -1,0 +1,100 @@
+
+
+
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    margin: 25%;
+}
+
+button {
+    background-color: white;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 40px;
+}
+
+.card1 {
+    display: inline;
+    background-color: hsl(31, 77%, 52%);
+    justify-items: center;
+    align-items: flex-start;
+    border-radius: 5px;
+    padding: 50px;
+    
+}
+.btn1 {
+    color: hsl(31, 77%, 52%);
+}
+
+.card2 {
+    display: inline;
+    background-color: hsl(184, 100%, 22%);
+    justify-items: center;
+    align-items: flex-start;
+    border-radius: 5px;
+    padding: 50px;
+}
+
+.btn2 {
+    color: hsl(184, 100%, 22%);
+}
+
+.card3 {
+    display: inline;
+    background-color: hsl(179, 100%, 13%);
+    justify-items: center;
+    align-items: flex-start;
+    border-radius: 5px;
+    padding: 50px;
+}
+
+.btn3 {
+    color: hsl(179, 100%, 13%);
+}
+
+h1 {
+    color: white;
+    font-weight: 500px;
+    font-size: 35px;
+}
+
+P {
+    color: white;
+    font-size: 15px;
+    line-height: 2.0;
+}
+
+
+@media (max-width: 768px) {
+.container {
+    grid-template-columns: repeat(1, 1fr);
+    margin: 0;
+}
+  
+.card1,
+.card2,
+.card3 {
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+}
+  
+h1 {
+    font-size: 28px;
+}
+  
+p {
+    font-size: 14px;
+    }
+}
+
+
+
